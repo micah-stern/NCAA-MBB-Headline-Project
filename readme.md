@@ -1,6 +1,6 @@
 # Headline Generation for NCAA Men’s Basketball Statistics
 
-    Statistics play a critical role in sports, providing valuable insights into player performance and
+Statistics play a critical role in sports, providing valuable insights into player performance and
 game outcomes. However, box scores and raw numerical data can be difficult to interpret,
 making it challenging for fans and analysts to quickly grasp the story of the game. Automating
 the process of turning game-wise statistics into summaries and headlines can increase the
