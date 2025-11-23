@@ -367,25 +367,24 @@ def prepare_training_data(meta_df, box_df):
 def main():
     # Example usage
     # Load your data
-    # meta_df = pd.read_csv('cbb_headlines_2024_2025.csv')
-    # box_df = pd.read_csv('cbb_boxscores_2024_2025.csv')
+    meta_df = pd.read_csv("cbb_headlines_11_2024.csv")
+    box_df = pd.read_csv("cbb_boxscores_11_2024.csv")
 
     # Prepare the data
-    # stats_strings, headlines = prepare_training_data(meta_df, box_df)
+    stats_strings, headlines = prepare_training_data(meta_df, box_df)
 
     # Initialize and train the model
-    # model = HeadlineGenerator()
-    # model.build_model()
-    # history = model.train(stats_strings, headlines, epochs=20)
+    model = HeadlineGenerator()
+    model.build_model()
+    history = model.train(stats_strings, headlines, epochs=20)
 
     # Save the model
-    # model.save('headline_model')
+    model.save("headline_model")
 
     # Example of loading and using the model
-    # loaded_model = HeadlineGenerator.load('headline_model')
-    # headline = loaded_model.generate_headline("Player1 24p 5r 3a | Player2 18p 8r 6a")
-    # print("Generated headline:", headline)
-    pass
+    loaded_model = HeadlineGenerator.load("headline_model")
+    headline = loaded_model.generate_headline("Player1 24p 5r 3a | Player2 18p 8r 6a")
+    print("Generated headline:", headline)
 
 
 if __name__ == "__main__":
