@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1p3fVWW86-rOChNIjmcNM0fhtQIHGE_Ey
 """
 
-!pip install rouge-score
+#pip install rouge-score
 
 """## Sample Dataset (11/24/25)"""
 
