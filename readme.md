@@ -229,8 +229,8 @@ using Transformer Models. ECE684 Final Project.
 
 ## Team
 
-- **Uzoma Uwazurike** - Model development, evaluation
-- **Micah Stern** - Data scraping, training pipeline
+- **Uzoma Uwazurike** - Model development, Model Research, evaluation
+- **Micah Stern** - Data scraping, Model Development, training pipeline
 
 **Course:** ECE684 - Natural Language Processing  
 **Institution:** Duke University  
@@ -238,17 +238,12 @@ using Transformer Models. ECE684 Final Project.
 
 ---
 
-## License
-
-This project is for educational purposes. ESPN data used under fair use for academic research.
-
----
 
 ## Acknowledgments
 
 - ESPN for public API access
 - Hugging Face for pre-trained BART model
-- Course instructor for feedback on improving the model
+- Course instructor Patrick Wang for feedback on improving the model
 
 ---
 
